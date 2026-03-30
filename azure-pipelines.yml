@@ -7,13 +7,14 @@ trigger:
 - main
 
 pool:
-  vmImage: Default
+  name: Default
 
 steps:
-- script: echo Hello, world!
+- script: echo "Hello from self-hosted agent"
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo "Pipeline is running on my Mac self-hosted agent"
+    pwd
+    ls
   displayName: 'Run a multi-line script'
