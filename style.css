@@ -142,9 +142,7 @@ form button {
 }
 
 footer {
-  text-align: center;
-  background: #2e8b57;
-  color: white;
-  padding: 18px;
-  margin-top: 30px;
+  background: blue;
+  color: yellow;
+  border : 10px solid black;
 }
