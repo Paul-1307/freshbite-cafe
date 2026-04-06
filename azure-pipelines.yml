@@ -1,0 +1,20 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+- script: echo "Hello from self-hosted agent"
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo "Pipeline is running on my Mac self-hosted agent"
+    pwd
+    ls
+  displayName: 'Run a multi-line script'

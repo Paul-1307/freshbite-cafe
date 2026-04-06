@@ -32,3 +32,5 @@ FreshBite Café is a healthy juice and sandwich ordering website.
 After deployment, the site will be available at:
 
 `https://varsharayavarapu.github.io/freshbite-cafe`
+
+Updated by Moses for demo
